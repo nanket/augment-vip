@@ -10,11 +10,13 @@
 *   Create and sign into a **new account** (your old accounts won't work anymore!)
     *   创建一个**新账户**并登录（你的旧账户不能用了！）😊
 
+> Note: For the moment you have to run the binary everytime you update the extension, I'll fix this in a future update as at the moment I didn't have time to implement the fix
+
 **Supported IDEs:**
 *   All JetBrains IDEs
     *   所有 JetBrains IDE
 *   All VSCode-based IDEs
     *   所有基于 VSCode 的 IDE
 
-**Source Code?**
+**Source Code?**\
 Well the AugmentCode Team seems to be looking at my repository so I had to private the entire codebase unfortunately
