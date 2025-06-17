@@ -22,4 +22,4 @@
 Well the AugmentCode Team seems to be looking at my repository so I had to private the entire codebase unfortunately
 
 **Discord:**\
-https://discord.gg/nTXq5XRh
+https://discord.gg/ZH9cqj75tq
