@@ -21,5 +21,17 @@
 **Source Code?**\
 Well the AugmentCode Team seems to be looking at my repository so I had to private the entire codebase unfortunately
 
-**Discord:**\
+**Discord (Join for latest releases and updates):**\
 https://discord.gg/ZH9cqj75tq
+
+> Everyone wants to donate or pay me somehow, so, uh, here's my crypto addresses!!   
+> 每个人都想以某种方式捐赠或支付我，所以，呃，这是我的加密地址！！
+>
+> BTC:\
+> bc1q30dlt4mtpkn6q5j9w0mr7vhy20uhym0zv4yhst
+>
+> ETH (accepts all Ethereum compatible coins):\
+> 0x99799a6b691659F4A48868D237a527bdD8f4ff42
+>
+> SOL (accepts all Solana compatible coins):\
+> SZy2sG8pWT8dMQQ9J2eTkFw8UHBh6YvznbucA2de6BN
