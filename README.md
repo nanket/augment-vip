@@ -1,37 +1,182 @@
-**Instructions:**
-*   Sign out from the IDE
-    *   从IDE退出登录
-*   Close the IDE
-    *   关闭IDE
-*   Run the [binary](https://github.com/Nekots/augment-vip/releases)
-    *   运行[二进制文件](https://github.com/Nekots/augment-vip/releases)
-*   Open the IDE
-    *   打开IDE
-*   Create and sign into a **new account** (your old accounts won't work anymore! you may need to use a VPN to create a new account)
-    *   创建一个**新账户**并登录（你的旧账户不能用了！您可能需要使用 VPN 来创建新帐户）😊
+# Brahmacharya App 🧘‍♂️
 
-> Note: For the moment you have to run the binary everytime you update the extension, I'll fix this in a future update as at the moment I didn't have time to implement the fix
+A modern, minimalist mobile application for practicing celibacy and self-mastery, integrating ancient wisdom with modern science.
 
-**Supported IDEs:**
-*   All JetBrains IDEs
-    *   所有 JetBrains IDE
-*   All VSCode-based IDEs
-    *   所有基于 VSCode 的 IDE
+## 🎨 Design Philosophy
 
-**Source Code?**\
-Well the AugmentCode Team seems to be looking at my repository so I had to private the entire codebase unfortunately
+- **Minimalist Black & White Theme**: Clean, professional design that promotes focus and clarity
+- **Modern UI/UX**: Smooth animations, haptic feedback, and intuitive navigation
+- **Privacy-First**: Offline-first architecture with local data storage
+- **Refined Typography**: Clear hierarchy using system fonts
+- **Consistent Spacing**: 4/8/16/24/32 scale for visual harmony
+- **Elevated Cards**: 12-16px border radius with subtle shadows
 
-**Discord (Join for latest releases and updates):**\
-https://discord.gg/ZH9cqj75tq
+## ✨ Features
 
-> Everyone wants to donate or pay me somehow, so, uh, here's my crypto addresses!!   
-> 每个人都想以某种方式捐赠或支付我，所以，呃，这是我的加密地址！！
->
-> BTC:\
-> bc1q30dlt4mtpkn6q5j9w0mr7vhy20uhym0zv4yhst
->
-> ETH (accepts all Ethereum compatible coins):\
-> 0x99799a6b691659F4A48868D237a527bdD8f4ff42
->
-> SOL (accepts all Solana compatible coins):\
-> SZy2sG8pWT8dMQQ9J2eTkFw8UHBh6YvznbucA2de6BN
+### Core Functionality
+- **Home Screen**: Daily wisdom, streak tracking, and quick actions
+- **Practice**: Guided meditation, breathing exercises, yoga, and mindful reading
+- **Track**: Mood logging and progress tracking with visual insights
+- **Learn**: Educational content from ancient traditions and modern science
+- **SOS Support**: Emergency support flow for difficult moments
+
+### Technical Features
+- 📱 React Native with Expo
+- 🎯 TypeScript for type safety
+- 🗄️ Offline-first with AsyncStorage
+- 🎨 Modern design system with reusable components
+- ⚡ Smooth animations with Reanimated
+- 📳 Haptic feedback for better UX
+- 🧭 Bottom tab navigation
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+- Expo CLI
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd brahmacharya-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+4. Run on your device:
+- **iOS**: Press `i` or scan QR code with Camera app
+- **Android**: Press `a` or scan QR code with Expo Go app
+- **Web**: Press `w`
+
+## 📁 Project Structure
+
+```
+brahmacharya-app/
+├── app/                    # App screens and navigation
+│   ├── (tabs)/            # Bottom tab screens
+│   │   ├── index.tsx      # Home screen
+│   │   ├── practice.tsx   # Practice screen
+│   │   ├── track.tsx      # Track screen
+│   │   └── learn.tsx      # Learn screen
+│   ├── sos.tsx            # SOS modal screen
+│   └── _layout.tsx        # Root layout
+├── components/            # Reusable UI components
+│   ├── Button.tsx
+│   ├── Card.tsx
+│   ├── Input.tsx
+│   ├── StreakCard.tsx
+│   ├── WisdomCard.tsx
+│   └── SOSButton.tsx
+├── constants/             # Design system and theme
+│   └── theme.ts
+├── utils/                 # Utilities and helpers
+│   ├── storage.ts         # Local storage functions
+│   └── wisdom.ts          # Daily wisdom quotes
+└── assets/               # Images and icons
+```
+
+## 🎨 Design System
+
+### Colors
+- **Primary**: Black (#000000) and White (#FFFFFF)
+- **Grays**: #F5F5F5, #E0E0E0, #D4D4D4, etc.
+- **Accent**: Deep Blue (#1E3A8A) for calm and focus
+- **Semantic**: Success, Warning, Error colors
+
+### Spacing Scale
+- xs: 4px
+- sm: 8px
+- md: 16px
+- lg: 24px
+- xl: 32px
+- xxl: 48px
+- xxxl: 64px
+
+### Typography
+- Display: 36-57px (Bold)
+- Headline: 24-32px (Semi-bold)
+- Title: 14-22px (Semi-bold)
+- Body: 12-16px (Regular)
+- Label: 11-14px (Medium)
+
+## 🔧 Technologies Used
+
+- **React Native**: Cross-platform mobile development
+- **Expo**: Development platform and tooling
+- **TypeScript**: Type-safe code
+- **Expo Router**: File-based navigation
+- **React Native Reanimated**: Smooth animations
+- **AsyncStorage**: Local data persistence
+- **Expo Haptics**: Tactile feedback
+- **Expo Vector Icons**: Icon library
+
+## 📱 Screens Overview
+
+### Home
+- Current and longest streak display
+- Daily wisdom quote
+- Quick action cards
+- SOS button for emergencies
+- Today's focus section
+
+### Practice
+- Guided meditation
+- Breathing exercises
+- Yoga practice
+- Mindful reading
+- Practice tips
+
+### Track
+- Mood logging with 5 levels
+- Notes and reflections
+- Recent logs history
+- Visual mood indicators
+
+### Learn
+- Featured articles
+- Topic categories
+- Educational resources
+- Sacred texts and modern science
+
+### SOS
+- Emergency support strategies
+- Breathing exercises
+- Physical activities
+- Contact support network
+- Motivational reminders
+
+## 🔐 Privacy & Data
+
+- All data stored locally on device
+- No cloud sync (optional feature for future)
+- No tracking or analytics
+- Complete user privacy
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🙏 Acknowledgments
+
+- Ancient wisdom traditions
+- Modern neuroscience research
+- Open source community
+
+---
+
+Built with ❤️ for personal growth and self-mastery
